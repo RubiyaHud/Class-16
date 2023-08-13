@@ -1,0 +1,164 @@
+/* All common CSS start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+/* All common CSS end */
+
+/* Header part start */
+.navbar {
+    background: #FAE3B6;
+    padding: 20px 0;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+
+    z-index: 99999; /*it was missing in the lecture video*/
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+.auth_btn a {
+    padding: 15px 25px;
+    margin-left: 10px;
+    background: #FAE3B6;
+    border: 1px solid #f1d09b;
+
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+
+    border-radius: 10px;
+    transition: .4s;
+
+    -webkit-box-shadow: 0px 10px 14px -7px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0px 10px 14px -7px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 10px 14px -7px rgba(0, 0, 0, 0.18)
+}
+
+.auth_btn a:hover {
+    background: #FDBB57;
+    border: 1px solid #FDBB57;
+}
+/* Header part end */
+
+
+/* Banner part start */
+#banner_part{
+    padding-top: 235px;
+    padding-bottom: 130px;
+    background: #FAE3B6;
+}
+.banner_text h3{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    line-height: 80px;
+}
+.banner_text p{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    line-height: 33px;
+
+    /* padding is not used here because padding may be required later for breaking the paragraph lines */
+    margin-top: 45px;
+    margin-bottom: 75px;
+
+}
+.banner_text a{
+    padding: 30px 90px;
+    background: #000000;
+    border-radius: 10px;
+
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+.banner_model{
+    text-align: right;
+    position: relative;
+    z-index: 999;
+}
+.banner_dot{
+    position: absolute;
+    /* bottom: -80px; */
+    bottom: 10px;
+    /* right: 766px; */
+
+}
+/* Banner part end */
+
+/* Collection part start */
+#collection_part{
+    padding-top: 230px ;
+    padding-bottom: 140px;
+}
+.common_head h3{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: #000000;
+
+    text-align: center;
+}
+.collection_card_img{
+    position: relative;
+}
+.collection_img_text{
+    position: absolute;
+    padding: 15px 130px;
+    background: #fff;
+    border-radius: 20px;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* z-index: 9999; */
+}
+.collection_img_text h4{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+
+}
+
+/* Collection part end */
